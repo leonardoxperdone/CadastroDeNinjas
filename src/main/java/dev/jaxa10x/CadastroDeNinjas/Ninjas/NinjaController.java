@@ -1,4 +1,4 @@
-package dev.jaxa10x.CadastroDeNinjas;
+package dev.jaxa10x.CadastroDeNinjas.Ninjas;
 
 import org.springframework.web.bind.annotation.*;
 
