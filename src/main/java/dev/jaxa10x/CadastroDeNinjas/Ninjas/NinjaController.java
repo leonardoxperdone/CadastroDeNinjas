@@ -1,4 +1,4 @@
-package dev.jaxa10x.CadastroDeNinjas;
+package dev.jaxa10x.CadastroDeNinjas.Ninjas;
 
 import org.springframework.web.bind.annotation.*;
 
@@ -6,7 +6,7 @@ import org.springframework.web.bind.annotation.*;
 @RequestMapping
 public class NinjaController {
 
-    @GetMapping("/boasvindas")
+    @GetMapping("/boasVindas")
 
     public String boasVindas(){
         return "Essa é a minha primeira mensagem nessa rota";
